@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> -->
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+		
+		<link href="css/player.css" rel="stylesheet"/>
+		<script src="js/player.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+
+	<body>
+		<!-- 顶头div -->
+		<div class="section1">
+		    <div class="mian-div1">
+		    	<a href="index.html">
+		    		<div class="logo">
+		    		</div>
+		    	</a>
+		    	<!-- <div class="h-dao">
+		    	    <ul>
+		    	        <li>
+		    	            <a href="index.html">首页</a></li>
+		    	        <li>
+		    	            <a >歌单</a></li>
+		    	        <li>
+		    	            <a>音乐盒</a></li>
+		    	    </ul>
+		    	
+		    	</div> -->
+		    	<div class="search-d">
+		    		<form>
+		    			<input type="search" name="" id="search" placeholder="请输入歌名、歌词、歌手或专辑" />
+		    			<button type="submit" id="submit"><i style="font-size:22px" class="fa">&#xf002</i></button>
+		    		</form>
+		    	</div>
+		    	<div id="liout">
+		    		<span>登陆</span>
+		    		<span>/</span>
+		    		<span>注册</span>
+		    	</div>
+		    </div>
+		</div>
+		
+		
+		<div class="container" id="container">
+				<div class="music">
+					<div class="photo">
+						<div class="photo_pic" id="photo_pic"><div class="cd"></div></div>
+						<div class="choose" style="display: none">
+							<div class="choose_obj choose_like" >
+								<div class="icon" id="icon1">
+									&#xe607;
+								</div>
+		<!--						<span>喜欢</span>-->
+							</div>
+							<div class="choose_obj choose_share">
+								<div class="icon" id="icon2">
+									&#xe675;
+								</div>
+		<!--						<span>收藏</span>-->
+							</div>
+						</div>
+					</div>
+		
+					<div class="progress">
+		
+						<div class="progress_obj clear">
+							<time class="">00:00</time>
+							<div class="progress_bar" id="progress_bar" style=""><div class="progress_cube" id="progress_cube"></div></div>
+		                    <time class="">00:00</time>
+						</div>
+						<div class="progress_obj clear">
+							<div class="ctrl_btn">
+								<div id="prev_btn" class="prev_btn btn">&#xe60d;</div>
+								<div id="play_btn" class="play_btn btn">&#xe60e;</div>
+								<div id="next_btn" class="next_btn btn">&#xe60b;</div>
+							</div>
+							<div class="ctrl_info">
+								<div class="vol">&#xe979;<div class="vol_bar" id="vol_bar"><div class="vol_cube" id="vol_cube"></div></div></div>
+								<div class="list" id="list">&#xe908;<div id="list_con"><p>fffffffff</p><p>fffffffff</p><p>fffffffff</p></div></div>
+							</div>
+							<audio src="music/jq22.com.mp3"></audio>
+						</div>
+					</div>
+				</div>
+				<div class="lyric">
+					<div class="lyric_tit" id="lyric_tit"></div>
+					<div class="lyric_con" id="lyric_con"><div id="lyric_txt"></div></div>
+				</div>
+			</div>
+	</body>
+</html>

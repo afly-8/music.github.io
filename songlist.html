@@ -1,0 +1,510 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/songlist.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+		<!-- <script src="js/songlist.js"></script> -->
+	</head>
+
+	<body>
+		<div id="_nuxt">
+			<div id="layout">
+				<div>
+					<div class="page-header">
+						<div class="section1">
+						    <div class="mian-div1">
+						    	<a href="index.html">
+						    		<div class="logo">
+						    		</div>
+						    	</a>
+						    	<div class="h-dao">
+						    	    <ul>
+						    	        <li>
+						    	            <a href="index.html">首页</a></li>
+						    	        <li>
+						    	            <a href="songlist.html">歌单</a></li>
+						    	        <li>
+						    	            <a href="player.html">音乐盒</a></li>
+						    	    </ul>
+						    	
+						    	</div>
+						    	<div class="search-d">
+						    		<form>
+						    			<input type="search" name="" id="search" placeholder="请输入歌名、歌词、歌手或专辑" />
+						    			<button type="submit" id="submit"><i style="font-size:22px" class="fa">&#xf002</i></button>
+						    		</form>
+						    	</div>
+						    	<div id="liout">
+						    		<span>登陆</span>
+						    		<span>/</span>
+						    		<span>注册</span>
+						    	</div>
+						    </div>
+						</div>
+					</div>
+					
+					<div class="container page-container page-main">
+						<div data-v-5ea8f978 class="filter-box clearfix">
+							<div data-v-5ea8f978 class="filter-group language-group fl">
+								<div data-v-5ea8f978 class="title">
+									<i class="fa fa-commenting"></i>
+									语种
+								</div>
+								<ul class="filter-data-box clearfix">
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="华语" class="item ellipsis">华语</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="欧美" class="item ellipsis">欧美</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="粤语" class="item ellipsis">粤语</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="日语" class="item ellipsis">日语</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="韩语" class="item ellipsis">韩语</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c class="more" title="更多" class="item ellipsis">更多<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+										<i data-v-0869570c>
+										</i>
+									</li>
+								</ul>
+							</div>
+							<div data-v-5ea8f978 class="filter-group fl">
+								<div data-v-5ea8f978 class="title">
+									<i class="fa fa-play-circle-o"></i>
+									流派
+								</div>
+								<ul class="filter-data-box clearfix">
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="流行" class="item ellipsis">流行</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="摇滚" class="item ellipsis">摇滚</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="民谣" class="item ellipsis">民谣</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="电子" class="item ellipsis">电子</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="影视原声" class="item ellipsis">影视原声</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="ACG" class="item ellipsis">ACG</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="新世纪" class="item ellipsis">新世纪</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="爵士" class="item ellipsis">爵士</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c class="more" title="更多" class="item ellipsis">更多<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+									</li>
+								</ul>
+							</div>
+							<div data-v-5ea8f978 class="filter-group fl">
+								<div data-v-5ea8f978 class="title">
+									<i class="fa fa-life-ring" aria-hidden="true"></i>
+									主题
+								</div>
+								<ul class="filter-data-box clearfix">
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="经典" class="item ellipsis">经典</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="摇滚" class="item ellipsis">摇滚</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="现场" class="item ellipsis">现场</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="KTV" class="item ellipsis">KTV</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="网络歌曲" class="item ellipsis">网络歌曲</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="乐器" class="item ellipsis">乐器</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="节日" class="item ellipsis">节日</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="人群" class="item ellipsis">人群</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c class="more" title="更多" class="item ellipsis">更多<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+									</li>
+								</ul>
+							</div>
+							<div data-v-5ea8f978 class="filter-group fl">
+								<div data-v-5ea8f978 class="title">
+									<i class="fa fa-heartbeat" aria-hidden="true"></i>
+									情感
+								</div>
+								<ul class="filter-data-box clearfix">
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="快乐" class="item ellipsis">快乐</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="美好" class="item ellipsis">美好</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="安静" class="item ellipsis">安静</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="寂寞" class="item ellipsis">寂寞</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="思念" class="item ellipsis">思念</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="孤独" class="item ellipsis">孤独</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="怀旧" class="item ellipsis">怀旧</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="悲伤" class="item ellipsis">悲伤</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c class="more" title="更多" class="item ellipsis">更多<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+									</li>
+								</ul>
+							</div>
+							<div data-v-5ea8f978 class="filter-group fl">
+								<div data-v-5ea8f978 class="title">
+									<i class="fa fa-umbrella" aria-hidden="true"></i>
+									场景
+								</div>
+								<ul class="filter-data-box clearfix">
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="运动" class="item ellipsis">运动</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="驾驶" class="item ellipsis">驾驶</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="学习" class="item ellipsis">学习</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="工作" class="item ellipsis">工作</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="清晨" class="item ellipsis">清晨</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="夜晚" class="item ellipsis">夜晚</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="午后" class="item ellipsis">午后</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c="" title="游戏" class="item ellipsis">游戏</span>
+									</li>
+									<li data-v-0869570c>
+										<span data-v-0869570c class="more" title="更多" class="item ellipsis">更多<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div data-v-5ea8f978 class="list-head clearfix">
+							<h2 data-v-5ea8f978 class="li">全部歌单</h2>
+						</div>
+						
+						<div data-v-1e40aea8 data-v-5ea8f978 class="tracklist-box clearfix">
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0104/M00/76/70/ChR45WFB0U6AHc3oAAC_xJlDwSM714.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									
+									<div class="name" data-v-1e40aea8="">秋分 | 自此，昼短夜长，天地...</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0105/M00/7E/14/ChR45GFSwVuAYzWrAAErzfoZbDc255.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">【国庆节】假期听歌攻略</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0101/M00/79/42/ChR45WFBvBaAWBx6ABUTRgNnVbw352.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">来自果味VC的荣耀</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0102/M00/7C/42/ChR45WFULkSAF7SoABxZmvpq_pQ587.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">世界步行日 | 感受生活的模样</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0101/M00/7E/7D/ChR45WFStuWAdCI3AAqO0_0psm0649.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">国剧崛起，那些好剧里的好歌</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0101/M00/77/5D/ChR45WE3PWeAOTKnAAO2mC8sJ9M683.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">中秋节 | 圆圆的月亮，远远的家乡</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0102/M00/75/C4/ChR45GE7EN6AKvVoAAl8pFZ-1xI253.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">伤感电台 | 我emo了，因为你</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0105/M00/7D/FB/ChR45WFUIQeAAKhYAAAT4Fgf2Po525.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">世界步行日 | 向着理想，大胆往前走</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0104/M00/76/33/ChR45WE-zPyANeNvAAzqdrUYSso128.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">薛之谦2021天外来物巡演开启</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0105/M00/77/6F/ChR45GE5dB2AQk4DAAF81T4MAC0427.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">嘻哈精选 | 听到这些旋律都跳起来</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0105/M00/77/71/ChR45GE62A6AeW00AAFppWP3wY4731.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">美的旗帜，善的信使，我们的...</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0103/M00/6F/D3/ChR45GEfVy2AKmnXAAGn_uVG5Bo834.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">ALI PROJECT</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0103/M00/6F/D3/ChR45GEfVmGAZJicAAC4Jr6iC_Y366.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">JUNNA</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0104/M00/72/B5/ChR45WEsh4mASdpVAAGoXJoXk-g259.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">初秋絮语，用音乐记下你的点点滴滴</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0103/M00/73/0E/ChR45WEsptOAHE54AADUYla66MA582.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">【ACG】我的DNA动了！</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0103/M00/73/3E/ChR45WEvUgSAdwZZAADKUL-QLVg997.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">「日系」啊，是夏天结束的声音</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0101/M00/75/FD/ChR45GEwqVqAUtDdAACiDQ1_jLE370.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">顶级女声 | 开口就沦陷了</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0105/M00/75/7F/ChR45GEwpmuAcPq9AAD0mixYcJE437.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">后来，他的音乐你还在听吗？</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0102/M00/71/2B/ChR45GEk0XGAb3sbAACshVj17R4965.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">回忆向 | 手划圈，时空逆转</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0102/M00/70/75/ChR45GEh3QuANYRkAAFjDmqUUEc675.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">田馥甄第32届金曲奖封“后”</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0101/M00/71/19/ChR45WEbYtmAOvCAAAL0GDPnGe8452.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">收藏起来，这些卡点音乐BGM超燃！</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0104/M00/6E/DF/ChR45GEaL-6AI3LLAACVim20gno238.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">東山奈央</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0101/M00/71/26/ChR45GEbInCAJmFTAAC_6hBjrfE168.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">中島愛</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0103/M00/6F/D1/ChR45GEeLm2AHSEYAAB0zQLic0U204.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">【ACG】猛男听了也落泪</div>
+								</div>
+							</div>
+							
+							<div class="tracklist-item fl">
+								<div class="poster" data-v-1e40aea8>
+									<div class="el-image">
+										<img src="https://img01.dmhmusic.com/0105/M00/6C/D4/ChR45WELYICASGIHAAQC5W8fuWA144.jpg@w_224,h_224" >
+										<i class="fa fa-play-circle-o fa-5x" style="color: #F7F8F9" aria-hidden="true"></i>
+									</div>
+									<div class="name" data-v-1e40aea8="">AKINO with bless4</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<div class="page-footer">
+						<div class="footer-copyright">
+							<div class="page-container">
+								<div>
+									<div>Copyright 2021 © .XIAOLE MUSIC GROUP. 陕西轻音文化科技有限公司版权所有
+										<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
+											[陕ICP备12345678号-1]
+										</a>
+									</div>
+										<div>
+											<span>信息网络传播视听许可证: 9999999</span>| 
+											<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=" class="anbei">
+												<img src="http://www.beian.gov.cn/img/new/gongan.png" class="">
+												陕公网安备: 00000000000000号
+											</a>|
+											<span>增值电信业务经营许可证: 陕A1-20211001</span>|
+											<span>网络文化经营许可证号码: 陕网文[2021]8888-888号</span>
+										</div>
+									</div>
+								<div class="feedback"><a href="mailto:jubao@taihe.com">举报邮箱: xxx@admin.com</a>|
+								<a href="/feedback" class="">反馈中心</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
